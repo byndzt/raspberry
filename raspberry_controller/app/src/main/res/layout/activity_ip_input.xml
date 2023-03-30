@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="请在此输入树莓派ip："
+            android:textColor="#090909"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/input_ip"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+    </GridLayout>
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+    <TextView
+    android:id="@+id/text2"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:text="请输入树莓派端口号："
+    android:textColor="#090909"
+    android:textSize="16dp" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/input_duankou"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</GridLayout>
+    <Button
+        android:id="@+id/entry"
+        android:layout_marginTop="60dp"
+        android:text="确定跳转"
+        android:background="#AEEEEE"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+</LinearLayout>

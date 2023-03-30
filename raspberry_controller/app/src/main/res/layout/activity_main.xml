@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        tools:text="您将在此看到与树莓派连接信息：手机未显示"
+        tools:textSize="28dp"
+        android:background="@drawable/btn_shape_round"
+        android:id="@+id/textview"
+        android:layout_height="127dp"
+        android:backgroundTint="#FBFBEF"
+        android:layout_width="match_parent"
+        />
+    <GridLayout
+        android:layout_width="375dp"
+        android:layout_height="299dp">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="182dp"
+            android:layout_height="108dp"
+            android:startColor="#00FF00"
+            android:endColor="#C0C0C0"
+            android:paddingTop="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/btn_selector_shape"
+            android:angle="0"
+            android:text="yulan"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="182dp"
+            android:layout_height="108dp"
+            android:startColor="#00FF00"
+            android:endColor="#C0C0C0"
+            android:layout_marginTop="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/btn_selector_shape"
+            android:text="paizhao"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="182dp"
+            android:layout_height="108dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/btn_selector_shape"
+            android:text="guanbiyulan" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="182dp"
+            android:layout_height="108dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_selector_shape"
+            android:text="imageshow" />
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/btn_shape_round" />
+
+</LinearLayout>

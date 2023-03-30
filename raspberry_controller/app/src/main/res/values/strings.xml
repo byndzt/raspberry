@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">树莓派</string>
+    <string name="bg">您将在此看到与树莓派的一些连接信息</string>
+    <string name="yulan">预览</string>
+    <string name="paizhao">拍照</string>
+    <string name="jieshuyulan">结束预览</string>
+    <string name="dakaixiangce">打开相册</string>
+</resources>
